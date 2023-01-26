@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ideal-gas"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\proj\;CMake Files\..\..\proj\cmake\;CMake Files\..\..\proj\cmake\modules\;CMake Files\..\..\lib\;CMake Files\..\..\lib\macosx\;CMake Files\..\..\lib\macosx\Debug\;CMake Files\..\..\cmake-build-debug\;CMake Files\..\..\cmake-build-debug\lib\;CMake Files\..\..\cmake-build-debug\lib\macosx\;CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Debug/game/game.app/Contents/MacOS/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/include"/>
+					<Add directory="/Users/nandanadileep/Downloads/Cinder/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Debug/game/game.app/Contents/MacOS/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/include"/>
+					<Add directory="/Users/nandanadileep/Downloads/Cinder/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/apps/cinder_app_main.cc">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/src/GameOne.cc">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/src/GameThree.cc">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/src/GameTwo.cc">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/src/TarotCard.cc">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/src/TarotCards.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/src/ciAnimatedGif.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/src/game_simulation_app.cc">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/samples/data/CinderApp.icns">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/../../proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/../../lib/macosx/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/nandanadileep/Downloads/Cinder/my_projects/final-project-Nandana-dileep/../../cmake-build-debug/lib/macosx/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
